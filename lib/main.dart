@@ -14,10 +14,7 @@ class TodayScheduleApp extends StatelessWidget {
     return MaterialApp(
       title: '오늘의 스케쥴',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        useMaterial3: true,
-        colorSchemeSeed: Colors.blue,
-      ),
+      theme: ThemeData(useMaterial3: true, colorSchemeSeed: Colors.blue),
       home: const MainScreen(),
     );
   }

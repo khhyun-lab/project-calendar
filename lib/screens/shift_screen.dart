@@ -8,10 +8,7 @@ class ShiftScreen extends StatelessWidget {
     return const Center(
       child: Text(
         '근무표',
-        style: TextStyle(
-          fontSize: 24,
-          fontWeight: FontWeight.bold,
-        ),
+        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
       ),
     );
   }

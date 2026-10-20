@@ -8,10 +8,7 @@ class DayScreen extends StatelessWidget {
     return const Center(
       child: Text(
         '원형 하루 일정',
-        style: TextStyle(
-          fontSize: 24,
-          fontWeight: FontWeight.bold,
-        ),
+        style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
       ),
     );
   }
