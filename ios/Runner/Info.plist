@@ -7,7 +7,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Today Schedule</string>
+	<string>All-in-One Schedule</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>기존 캘린더의 일정을 앱으로 가져오기 위해 캘린더 접근 권한이 필요합니다.</string>
+	<key>NSCalendarsFullAccessUsageDescription</key>
+	<string>기존 캘린더의 일정을 앱으로 가져오기 위해 캘린더 접근 권한이 필요합니다.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

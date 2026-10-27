@@ -4,6 +4,8 @@ class Schedule {
   final DateTime startTime;
   final DateTime endTime;
   final int colorIndex;
+  final bool isShift;
+  final String? shiftTypeId;
 
   const Schedule({
     required this.id,
@@ -11,5 +13,7 @@ class Schedule {
     required this.startTime,
     required this.endTime,
     this.colorIndex = 0,
+    this.isShift = false,
+    this.shiftTypeId,
   });
 }

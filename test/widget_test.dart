@@ -9,7 +9,7 @@ void main() {
     await tester.pumpWidget(const TodayScheduleApp());
 
     // 앱 제목이 표시되는지 확인
-    expect(find.text('오늘의 스케쥴'), findsOneWidget);
+    expect(find.text('All-in-One Schedule'), findsOneWidget);
 
     // 하단 메뉴가 표시되는지 확인
     expect(find.text('캘린더'), findsOneWidget);
@@ -17,6 +17,6 @@ void main() {
     expect(find.text('근무표'), findsOneWidget);
 
     // 설정 버튼이 있는지 확인
-    expect(find.byIcon(Icons.settings), findsOneWidget);
+    expect(find.byIcon(Icons.settings_outlined), findsOneWidget);
   });
 }
